@@ -1,6 +1,5 @@
 import React from 'react';
 import moment from 'moment';
-import logo from './logo.svg';
 import './App.css';
  
 class App extends React.Component {
@@ -87,7 +86,7 @@ class App extends React.Component {
 
 const SVGCircle = ({ radius }) => (
   <svg className='countdown-svg'>
-    <path fill="none" stroke="#333"  strokeWidth="4" d={describeArc(50, 50, 48, 0, radius)} />
+    <path fill="none" stroke="#c7775a"  strokeWidth="6" d={describeArc(50, 50, 48, 0, radius)} />
   </svg>
 );
 
